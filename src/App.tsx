@@ -6,7 +6,7 @@ import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="min-h-screen bg-background font-sans antialiased">
       <Header />
@@ -21,5 +21,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
